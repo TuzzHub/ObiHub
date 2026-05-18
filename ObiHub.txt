@@ -1,0 +1,13 @@
+local Scripts = {
+    [3203685552] = "https://raw.githubusercontent.com/TuzzHub/BearAlpha/refs/heads/main/BearAlpha.txt",
+    [136801880565837] = "https://raw.githubusercontent.com/TuzzHub/OneTap/refs/heads/main/Timvideoooooo",
+    [142823291] = "https://raw.githubusercontent.com/TuzzHub/Murdermystery2/refs/heads/main/Mm2"
+}
+
+local ScriptURL = Scripts[game.PlaceId]
+
+if ScriptURL then
+    loadstring(game:HttpGet(ScriptURL))()
+else
+    game.Players.LocalPlayer:Kick("Game not supported")
+end
