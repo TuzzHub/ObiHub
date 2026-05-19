@@ -1,7 +1,11 @@
 local Scripts = {
-    [3203685552] = "https://raw.githubusercontent.com/TuzzHub/BearAlpha/refs/heads/main/BearAlpha.txt",
-    [136801880565837] = "https://raw.githubusercontent.com/TuzzHub/OneTap/refs/heads/main/Timvideoooooo",
-    [142823291] = "https://raw.githubusercontent.com/TuzzHub/Murdermystery2/refs/heads/main/Mm2"
+    [3203685552] = "https://xhider.xyz/raw/ObiHub/bearalpha.txt",
+    [136801880565837] = "https://xhider.xyz/raw/ObiHub/Onetap.txt",
+    [142823291] = "https://xhider.xyz/raw/ObiHub/Mm2.txt",
+
+    [2753915549] = "https://xhider.xyz/raw/ObiHub/Bloxfruit.txt",
+    [4442272183] = "https://xhider.xyz/raw/ObiHub/Bloxfruit.txt",
+    [7449423635] = "https://xhider.xyz/raw/ObiHub/Bloxfruit.txt"
 }
 
 local ScriptURL = Scripts[game.PlaceId]
